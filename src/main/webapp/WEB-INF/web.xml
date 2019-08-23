@@ -1,0 +1,60 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>ma.jobintech.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Home</servlet-name>
+  	<display-name>Home</display-name>
+  	<description></description>
+  	<servlet-class>ma.jobintech.servlet.Home</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Client</servlet-name>
+  	<display-name>Client</display-name>
+  	<description></description>
+  	<servlet-class>ma.jobintech.servlet.Client</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Virement</servlet-name>
+  	<display-name>Virement</display-name>
+  	<description></description>
+  	<servlet-class>ma.jobintech.servlet.Virement</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AjouterClient</servlet-name>
+  	<display-name>AjouterClient</display-name>
+  	<description></description>
+  	<servlet-class>ma.jobintech.servlet.AjouterClient</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Home</servlet-name>
+  	<url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Client</servlet-name>
+  	<url-pattern>/Client</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Virement</servlet-name>
+  	<url-pattern>/Virement</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AjouterClient</servlet-name>
+  	<url-pattern>/AjouterClient</url-pattern>
+  </servlet-mapping>
+    <welcome-file-list>
+    <welcome-file>Login</welcome-file>
+  </welcome-file-list>
+</web-app>
